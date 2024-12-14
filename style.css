@@ -120,6 +120,7 @@ body {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
+    
   }
   
   .todo__button--delete:hover .todo__button-img {
