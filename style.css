@@ -27,21 +27,21 @@ body {
     }
   }
   
-  /* Main Page Section */
-  .main-page {
+  /* Main Section */
+  .main-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
   }
   
-  /* Task List */
-  .task-list {
+  /* Task List Section */
+  .task-container {
     margin: 0;
     padding: 0;
   }
   
-  .task-list__item,
-  .task-list__heading {
+  .task-container__item,
+  .task-container__heading {
     list-style: none;
   }
   
@@ -51,11 +51,11 @@ body {
     flex-grow: 1;
   }
   
-  .task-list__row {
+  .task-container__row {
     display: flex;
   }
   
-  .task-list__input {
+  .task-container__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -68,11 +68,11 @@ body {
     color: #888;
   }
   
-  .task-list__input:focus {
+  .task-container__input:focus {
     color: #333;
   }
   
-  .task-list__button {
+  .task-container__button {
     background: none;
     border: 0;
     color: #888;
@@ -82,7 +82,7 @@ body {
     cursor: pointer;
   }
   
-  .task-list__button:hover {
+  .task-container__button:hover {
     color: #3a3a3a;
   }
   
@@ -92,19 +92,19 @@ body {
     color: #888;
   }
   
-  /* Edit Task */
-  .edit-mode {
+  /* Edit Task Section */
+  .edit-task {
     input[type="text"] {
       display: none;
     }
   }
   
-  .edit-mode__input {
+  .edit-task__input {
     display: inline-block;
     width: 224px;
   }
   
-  .edit-mode__label {
+  .edit-task__label {
     display: none;
   }
   
